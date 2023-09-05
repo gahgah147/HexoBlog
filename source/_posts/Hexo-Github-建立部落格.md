@@ -4,10 +4,7 @@ date: 2023-08-31 14:12:53
 tags: Node.js Hexo Github
 ---
 
-# Hexo + Github 建立部落格
-
-
-## 1.為什麼想要架設 Blog
+## 為什麼想要架設 Blog
 
 身為一個工程師，不知不覺也工作了四年，工作上使用的套件不管是前端、後端、框架都越來越多，所以想記錄自己曾使用過的套件，要用的時候可以很快的查到。
 
@@ -16,7 +13,7 @@ tags: Node.js Hexo Github
 * 可以作為作品集展示
 * 另外想紀錄什麼都可以寫上去
 
-## 2.為什麼選 Hexo 
+## 為什麼選 Hexo 
 
 * 可以免費放在Github 上
 * 可以選好看的主題
@@ -27,9 +24,9 @@ tags: Node.js Hexo Github
 
 所以就決定跟著來一起嘗試架設Blog
 
-## 3.環境設定
+## 環境設定
 
-### 3.1NodeJs
+### NodeJs
 ![](https://hackmd.io/_uploads/Hygizoop62.png)
 >https://nodejs.org/en
 
@@ -41,7 +38,7 @@ tags: Node.js Hexo Github
 選擇 nvm-setup 開始下載
 :::
 
-### 3.2Git
+### Git
 ![](https://hackmd.io/_uploads/H1vIss66n.png)
 >https://git-scm.com/
 
@@ -49,7 +46,7 @@ tags: Node.js Hexo Github
 ![](https://hackmd.io/_uploads/HJ4toipph.png)
 >https://code.visualstudio.com/
 
-## 4.Hexo 設定
+## Hexo 設定
 
 安裝 Hexo
 ```
@@ -74,12 +71,12 @@ hexo server
 接下來用瀏覽器打開 http://localhost:4000 就可以看到Hexo 的效果
 ![](https://hackmd.io/_uploads/HkTGRjap3.png)
 
-## 5.要怎麼在在文章上放圖片呢
+## 要怎麼在在文章上放圖片呢
 查看了各種教學後來決定先把文章圖片放在 HackMD上，再採用設定公開表的方式分享照片
 ![](https://hackmd.io/_uploads/SyLWU7JR3.png)
 
 
-## 6.選擇主題樣式
+## 選擇主題樣式
 
 另外可以選擇其他樣式
 
@@ -112,7 +109,7 @@ hexo server
 
 ![](https://hackmd.io/_uploads/By-YOrEC3.png)
 
-## 7.Hexo 常用指令
+## Hexo 常用指令
 
 初始化專案 / 建立專案資料夾
 ```
@@ -127,7 +124,7 @@ hexo new [layout] <文章標題>
 hexo server
 ```
 
-## 8.指令新增第一篇文章
+## 指令新增第一篇文章
 ```
 hexo new post "我的第一篇文章 By Hexo"
 ```
@@ -145,9 +142,15 @@ tags:
 hihihi ~ 你好～ 😍 我是第一篇文章的內容～
 在這裏可以用 `Markdown` 語法撰寫喔～
 
+```js
+console.log('Hello World!');
 ```
 
-##  9.部署 Deploy 設定
+
+```
+```
+
+##  部署 Deploy 設定
 
 ### 申請 Github 帳號
 ![](https://hackmd.io/_uploads/rk0N6SV0h.png)
