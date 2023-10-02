@@ -1,7 +1,7 @@
 ---
 title: Pytest 自動測試
 date: 2023-09-22 16:59:32
-tags: Pyton 自動化測試 Pytest
+tags: Python 自動化測試 Pytest
 ---
 
 # Pytest 指令

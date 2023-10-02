@@ -1,7 +1,7 @@
 ---
 title: Python 與自動化測試
 date: 2023-09-21 14:44:10
-tags: Pthon 自動化測試 iThome鐵人賽
+tags: Python 自動化測試 iThome鐵人賽
 ---
 
 
