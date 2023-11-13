@@ -1,7 +1,11 @@
 ---
 title: pytest-sugar 測試輸出美化與隨機測試
 date: 2023-10-27 11:36:37
-tags: pytest-sugar pytest-random-order 自動化測試 pytest
+tags: 
+ - pytest-sugar 
+ - pytest-random-order 
+ - 自動化測試 
+ - pytest
 ---
 
 今天我們要介紹該如何美化我們在進行測試時終端機的輸出，以及讓我們的測試可以隨機的進行

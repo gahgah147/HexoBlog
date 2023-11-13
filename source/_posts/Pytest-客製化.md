@@ -1,7 +1,8 @@
 ---
 title: Pytest 客製化
 date: 2023-10-27 10:01:48
-tags: Pytest 
+tags: 
+ - Pytest 
 ---
 
 這篇是記錄我在看鐵人賽 [Python 與自動化測試的敲門磚 ](https://ithelp.ithome.com.tw/articles/10307485) 的過程

@@ -1,7 +1,9 @@
 ---
 title: 在Windows上安裝 pnpm
 date: 2023-09-26 09:13:46
-tags: pnpm windows
+tags: 
+ - pnpm 
+ - windows
 ---
 
 # 前言

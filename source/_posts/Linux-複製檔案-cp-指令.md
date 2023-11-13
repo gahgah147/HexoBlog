@@ -1,7 +1,8 @@
 ---
 title: Linux 複製檔案 cp 指令
 date: 2023-10-18 18:45:16
-tags: Linux
+tags: 
+ - Linux
 ---
 
 # 複製檔案

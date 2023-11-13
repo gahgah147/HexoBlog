@@ -1,7 +1,12 @@
 ---
 title: TDD 測試驅動開發流程
 date: 2023-10-02 15:59:49
-tags: 開發流程 TDD Python Pytest 爬蟲
+tags: 
+ - 開發流程 
+ - TDD 
+ - Python 
+ - Pytest 
+ - 爬蟲
 ---
 
 這篇是記錄我在看鐵人賽 [Python 與自動化測試的敲門磚 ](https://ithelp.ithome.com.tw/articles/10290529) 的過程

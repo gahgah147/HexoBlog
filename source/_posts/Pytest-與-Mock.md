@@ -1,7 +1,9 @@
 ---
 title: Pytest 與 Mock
 date: 2023-10-26 17:38:48
-tags: pytest Mock
+tags: 
+ - pytest 
+ - Mock
 ---
 
 這篇是記錄我在看鐵人賽 [Python 與自動化測試的敲門磚 ](https://ithelp.ithome.com.tw/articles/10306922) 的過程

@@ -1,7 +1,11 @@
 ---
 title: Selenium 自動化測試
 date: 2023-10-03 11:49:28
-tags: Selenium XPATH 自動化測試 Python
+tags: 
+ - Selenium 
+ - XPATH 
+ - 自動化測試 
+ - Python
 ---
 
 這篇是記錄我在看鐵人賽 [Python 與自動化測試的敲門磚 ](https://ithelp.ithome.com.tw/articles/10290529) 的過程

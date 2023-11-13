@@ -1,7 +1,9 @@
 ---
 title: 使用docker執行jenkins
 date: 2023-09-23 15:22:33
-tags: docker jenkins
+tags: 
+ - docker 
+ - jenkins
 ---
 
 # 使用docker執行jenkins

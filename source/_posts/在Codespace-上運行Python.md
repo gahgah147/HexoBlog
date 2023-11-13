@@ -1,7 +1,10 @@
 ---
 title: 在Codespace 上運行Python
 date: 2023-09-12 15:30:48
-tags: GitHub Codespace Python 
+tags: 
+ - GitHub 
+ - Codespace 
+ - Python 
 ---
 
 # 在Codespace 上運行Python

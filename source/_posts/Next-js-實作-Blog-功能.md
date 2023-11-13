@@ -1,7 +1,10 @@
 ---
 title: Next.js 實作 Blog 功能
 date: 2023-09-20 17:45:20
-tags: Next.js Blog React.js
+tags: 
+ - Next.js 
+ - Blog 
+ - React.js
 ---
 
 

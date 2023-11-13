@@ -1,7 +1,9 @@
 ---
 title: Agoda全端工程師的日常生活
 date: 2023-11-11 11:54:00
-tags: Agoda Full-Stack
+tags: 
+ - Agoda 
+ - Full-Stack
 ---
 
 > 這篇文章是我在 [Agoda Engineering 部落格](https://medium.com/agoda-engineering)的文章閱讀紀錄

@@ -1,7 +1,8 @@
 ---
 title: ncu(npm-check-updates) 工具
 date: 2023-09-20 17:58:59
-tags: node.js
+tags: 
+ - node.js
 ---
 
 # 前言

@@ -1,7 +1,12 @@
 ---
 title: 自動化測試 CI/CD
 date: 2023-10-25 13:57:45
-tags: GitLab GitHub CI/CD Selenium Pytest
+tags: 
+ - GitLab 
+ - GitHub 
+ - CI/CD 
+ - Selenium 
+ - Pytest
 ---
 
 這篇是記錄我在看鐵人賽 [Python 與自動化測試的敲門磚 ](https://ithelp.ithome.com.tw/articles/10290529) 的過程

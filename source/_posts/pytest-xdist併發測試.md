@@ -1,7 +1,9 @@
 ---
 title: pytest-xdist併發測試
 date: 2023-10-27 11:14:43
-tags: pytest pytest-xdist
+tags: 
+ - pytest 
+ - pytest-xdist
 ---
 
 這篇是記錄我在看鐵人賽 [Python 與自動化測試的敲門磚 ](https://ithelp.ithome.com.tw/articles/10307902) 的過程

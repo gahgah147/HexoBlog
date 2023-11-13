@@ -1,7 +1,10 @@
 ---
 title: Hexo + Github 建立部落格
 date: 2023-08-31 14:12:53
-tags: Node.js Hexo Github
+tags: 
+ - Node.js 
+ - Hexo 
+ - Github
 ---
 
 ## 為什麼想要架設 Blog
