@@ -2,6 +2,8 @@
 title: Nuxt 3 實戰學習筆記 - 環境設定
 date: 2023-12-14 15:47:20
 tags:
+  - 前端框架
+  - Vue
   - Nuxt 3
   - 2023 iTHome 鐵人賽
 ---
