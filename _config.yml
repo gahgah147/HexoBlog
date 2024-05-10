@@ -108,3 +108,12 @@ deploy:
   type: git
   repo: https://github.com/gahgah147/gahgah147.github.io.git
   branch: master
+
+# Enable or disable the Google AdSense.
+google_adsense:
+  enable: true
+  google_ad_client_id: pub-2411285066435282
+  enable_page_level_ads: true
+ ## siderbar_enable 這邊建立廣告後才會用到
+  # siderbar_enable: true # 是否開啟側邊欄廣告
+  # siderbar_data_ad_slot: 0000000 # 請輸入廣告 slot
