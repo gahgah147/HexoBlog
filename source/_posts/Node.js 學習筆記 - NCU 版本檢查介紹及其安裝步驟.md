@@ -1,12 +1,18 @@
 ---
-title: ncu(npm-check-updates) 工具
+title: Node.js 學習筆記 - NCU 版本檢查介紹及其安裝步驟
 date: 2023-09-20 17:58:59
 tags: 
- - node.js
+ - Node.js
+ - NCU
 ---
+
+# Node.js 學習筆記 - NCU 版本檢查介紹及其安裝步驟
 
 ## 前言
 在使用 Node.js 開發時，版本問題和各種相依性問題常常導致每次在執行 `npm install` 後，專案啟動時出現錯誤，這真的是非常煩惱。不過，在看到這篇文章 [無痛更新專案中的 npm 相依套件](https://blog.marsen.me/2022/09/08/2022/how_to_npm_update_more_smoothly/) 後，我發現原來有一個名為 `npm-check-updates` 的工具可以使用，這真的解決了許多問題。
+
+## 什麼是NCU?
+NCU (npm-check-updates) 是一個用於 Node.js 的套件，它可以檢查您的 npm（Node Package Manager）項目中的套件，並提示您可用的更新版本。這個工具可以幫助開發者輕鬆地確保他們的項目中使用的套件都是最新版本，從而提高代碼的安全性和可靠性。
 
 ## 檢查過時的版本
 首先，我們可以使用 `npm outdated` 來檢查專案中有哪些套件是過時的：
@@ -54,4 +60,3 @@ npm install
 參考來源: [無痛更新專案中的 npm 相依套件](https://blog.marsen.me/2022/09/08/2022/how_to_npm_update_more_smoothly/)
 
 希望這篇文章能夠幫助你更好的管理專案中的 npm 相依套件。如果有任何問題或需要進一步的幫助，歡迎在留言區提出。
-
