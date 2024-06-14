@@ -1,14 +1,23 @@
 ---
-title: Hexo + Github 建立部落格
-date: 2023-08-31 14:12:53
-tags: 
- - Node.js 
+title: Hexo部落格 - Butterfly 主題調整
+date: 2024-06-13 15:33:01
+tags:
  - Hexo 
- - Github
+ - Butterfly
 categories:
   - 架站記錄
+keywords:
+description:
+top_img:
+comments:
+cover:
+toc:
+toc_number:
+copyright:
+mathjax:
+katex:
+hide:
 ---
-
 # Hexo部落格 - Butterfly 主題調整
 
 本文介紹如何在 Hexo 部落格中使用 Butterfly 主題，以及如何進行一些常見的調整。包括檔案結構介紹、主題顏色調整、樣式修改、Tags位置調整等。
@@ -243,23 +252,7 @@ feed:
   template:
 ```
 
-## 404頁面
-### 官方預設 404 頁面
-
-主題內置了一個簡單的 404 頁面，可在Butterfly的設置檔案調整`./themes/Butterfly/config.yml` 中開啟
-
-```
-# A simple 404 page
-error_404:
-  enable: true
-  subtitle: "頁面沒有找到"
-  background: 0
-```
-
-![image](https://hackmd.io/_uploads/HJcB-r_rC.png)
-> 可參考官方說明文件3https://butterfly.js.org/posts/dc584b87/#404%E9%A0%81%E9%9D%A2
-
-### 製作 404 page
+## 製作 404 page
 
 把你想遇到 404 時轉跳的頁面命名為 `404.html`，放在 `.\source` 資料夾裡。
 
@@ -276,4 +269,3 @@ skip_render:
 
 ## 結尾
 以上就是進階Butterfly相關設定，如果有任何問題或需要進一步的幫助，歡迎在留言區提出。
-

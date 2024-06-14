@@ -29,6 +29,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  # - 404.html
+  - README.md
+  - robots.txt0
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -100,7 +103,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: Butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -120,3 +123,16 @@ google_adsense:
 inject:
   head:
     - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2411285066435282" crossorigin="anonymous"></script>
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 10
+  hub:
+  content:
+  content_limit: 250
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:

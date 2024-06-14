@@ -3,6 +3,8 @@ title: Docker 學習筆記 Day2 - 操作流程與基礎指令
 date: 2024-06-11 17:43:37
 tags:
     - Docker
+categories:
+    - Docker 學習筆記
 ---
 # Docker 學習筆記 Day2 - 操作流程與基礎指令
 

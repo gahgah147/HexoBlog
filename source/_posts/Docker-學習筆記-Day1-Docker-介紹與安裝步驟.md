@@ -4,6 +4,8 @@ date: 2024-06-07 09:34:24
 tags:
     - Docker
     - Docker Desktop
+categories:
+    - Docker 學習筆記
 ---
 # Docker 學習筆記 Day1 - Docker 介紹與安裝步驟
 
