@@ -242,6 +242,37 @@ chat_hide_show: true
 如果使用工具自帶的聊天按鈕，按鈕位置可能會遮擋右下角圖標，請配置`rightside_bottom`調正右下角圖標位置
 :::
 
+設定之後在這邊會顯示有聊天功能
+![image](https://hackmd.io/_uploads/r1zpTnOKC.png)
+
+## 設定crisp
+![image](https://hackmd.io/_uploads/HyWykput0.png)
+>https://crisp.chat/en/
+
+註冊 crisp 帳號
+![image](https://hackmd.io/_uploads/Sk1zJauKA.png)
+
+設定樣式
+![image](https://hackmd.io/_uploads/B1Xc1pdK0.png)
+
+註冊完成後可以取得這個資料
+![image](https://hackmd.io/_uploads/SkxRJ6_KC.png)
+
+找到需要的網站ID 進行設定
+```
+# crisp
+# https://crisp.chat/en/
+crisp:
+  enable: true
+  website_id: xxxxxxxx
+```
+
+實測設定完可以成功留言
+![image](https://hackmd.io/_uploads/Sk-fMa_YR.png)
+
+也可以成功在後台看到這邊的訊息，也可以回應。
+![image](https://hackmd.io/_uploads/HkC8fTOYA.png)
+
 # 總結
 
 今天設定了Butterfly 主題的代碼樣式、搜尋功能、評論功能、分享、跟在線聊天設定，官方網站還有好幾項，這部分我覺得之後再來找時間設定好了
