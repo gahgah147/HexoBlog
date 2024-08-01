@@ -12,7 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "cheerio": "^0.22.0",
+    "cheerio": "^1.0.0-rc.12",
     "hexo": "^7.3.0",
     "hexo-blog-encrypt": "^3.1.9",
     "hexo-deployer-git": "^4.0.0",
@@ -20,6 +20,7 @@
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^4.0.0",
+    "hexo-generator-search": "^2.4.3",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",

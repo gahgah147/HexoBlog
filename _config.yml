@@ -136,3 +136,8 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+search:
+  path: search.json
+  field: post
+  content: true
