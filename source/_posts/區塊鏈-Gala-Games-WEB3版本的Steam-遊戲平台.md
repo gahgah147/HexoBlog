@@ -35,7 +35,7 @@ hide:
 在傳統遊戲中，玩家購買的物品和角色屬於遊戲公司，一旦遊戲關閉或玩家停止遊戲，這些資產就會消失。而在 [Gala Games](https://tinyurl.com/24ke97we)，所有的遊戲內資產都是以 NFT（非同質化代幣）的形式存在於區塊鏈上，這意味著玩家真正擁有這些資產，並且可以在市場上自由交易。
 
 ![image](https://hackmd.io/_uploads/SJjzfa6KC.png)
->[其中一個遊戲 Town Star販賣中的道具](https://tinyurl.com/2xk5ec4d)  
+>[其中一個遊戲 Town Star販賣中的道具](https://tinyurl.com/24ke97we)  
 
 ## 2. 去中心化的遊戲生態系統
 
