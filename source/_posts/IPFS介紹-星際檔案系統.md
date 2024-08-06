@@ -3,7 +3,7 @@ title: IPFS介紹 - 星際檔案系統
 date: 2024-05-16 16:15:34
 tags:
     - IPFS
-    - 區塊練
+    - 區塊鏈
     - 星際檔案系統
     - Filecoin
 ---
