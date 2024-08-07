@@ -4,7 +4,7 @@ date: 2024-05-17 15:08:07
 tags:
     - Gnosis Safe
     - 多簽核
-    - 區塊練
+    - 區塊鏈
     - MetaMask
 ---
 
