@@ -10,7 +10,7 @@ keywords:
 description:
 top_img:
 comments:
-cover:
+cover: https://hackmd.io/_uploads/HyWykput0.png
 toc:
 toc_number:
 copyright:
