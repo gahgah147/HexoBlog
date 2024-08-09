@@ -8,7 +8,7 @@ keywords:
 description:
 top_img:
 comments:
-cover:
+cover: https://hackmd.io/_uploads/SJY_aRlKA.png
 toc:
 toc_number:
 copyright:
