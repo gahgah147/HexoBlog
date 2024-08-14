@@ -12,7 +12,7 @@ keywords:
 description:
 top_img:
 comments:
-cover: https://hackmd.io/_uploads/BkWnyBvcR.png
+cover: https://hackmd.io/_uploads/r11sksF5A.png
 toc:
 toc_number:
 copyright:
@@ -30,6 +30,8 @@ Gizzmo AI 是一款專為 WordPress 使用者設計的 AI 工具，主要用於�
 這款工具特別適合於希望通過聯盟行銷來賺取收入的網站擁有者。
 
 Gizzmo AI 可以自動生成與 Amazon 產品相關的內容，幫助使用者找到合適的關鍵詞並分析文章的語法與拼寫錯誤，還能自動插入 Amazon 的聯盟連結，增加收入潛力。
+
+![image](https://hackmd.io/_uploads/r11sksF5A.png)
 
 ---
 
