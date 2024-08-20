@@ -2,6 +2,8 @@
 title: GCP - 雲端證照課程 GCP Associate Cloud Engineer 準備
 date: 2024-08-20 13:56:35
 tags:
+    - GCP
+    - 雲端證照
 categories:
 keywords:
 description:
