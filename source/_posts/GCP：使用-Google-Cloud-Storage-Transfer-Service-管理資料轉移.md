@@ -4,7 +4,6 @@ date: 2024-08-20 17:15:14
 tags:
     - GCP
     - 資料轉移
-    - Google Cloud Storage Transfer Service
 categories:
 keywords:
 description:
