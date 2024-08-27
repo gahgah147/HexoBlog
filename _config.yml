@@ -124,18 +124,16 @@ inject:
   head:
     - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2411285066435282" crossorigin="anonymous"></script>
 
-feed:
-  type: atom
-  path: atom.xml
-  limit: 10
-  hub:
-  content:
-  content_limit: 250
-  content_limit_delim: ' '
-  order_by: -date
-  icon: icon.png
-  autodiscovery: true
-  template:
+feed: 
+	type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+	limit: 0
+	hub:	
+	content: true
 
 search:
   path: search.json
