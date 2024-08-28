@@ -160,17 +160,17 @@ Updated property [compute/zone].
 
 A [cluster](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-architecture) consists of at least one cluster master machine and multiple worker machines called nodes. Nodes are [Compute Engine virtual machine (VM) instances](https://cloud.google.com/compute/docs/instances/) that run the Kubernetes processes necessary to make them part of the cluster.
 
-:::info
+{% note info simple %}
 Note: Cluster names must start with a letter and end with an alphanumeric, and cannot be longer than 40 characters.
-:::
+{% endnote %}
 
 Run the following command:
 
 一個 [叢集](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-architecture) 由至少一個叢集主控機器和多個稱為節點的工作機器組成。節點是運行 Kubernetes 所需進程的 [Compute Engine 虛擬機器 (VM) 實例](https://cloud.google.com/compute/docs/instances/)，使它們成為叢集的一部分。
 
-:::info
+{% note info simple %}
 注意：叢集名稱必須以字母開頭並以字母或數字結尾，且名稱長度不得超過 40 個字元。
-:::
+{% endnote %}
 
 執行以下指令：
 
@@ -301,11 +301,11 @@ hello-server     loadBalancer    10.39.244.36    35.202.234.26   8080:31991/TCP 
 kubernetes       ClusterIP       10.39.240.1               433/TCP           5m13s
 ```
 
-:::info
+{% note info simple %}
 **Note**: It might take a minute for an external IP address to be generated. Run the previous command again if the EXTERNAL-IP column status is **pending**.
 
 **注意**：生成外部 IP 地址可能需要一分鐘。如果 EXTERNAL-IP 欄位狀態為 **pending**，請再次執行之前的指令。
-:::
+{% endnote %}
 
 ![image](https://hackmd.io/_uploads/HkT2X_FiA.png)
 
