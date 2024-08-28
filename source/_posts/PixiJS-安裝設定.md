@@ -37,7 +37,7 @@ https://cdnjs.com/libraries/pixi.js/4.5.5
 ![image](https://hackmd.io/_uploads/r1n7XwcuT.png)
 >https://cdnjs.com/libraries/pixi.js
 
-:::info
+{% note info simple %}
 
 
 .js檔與.min.js檔案的區別
@@ -46,7 +46,7 @@ https://cdnjs.com/libraries/pixi.js/4.5.5
 | -------- | -------- | -------- |
 |優點    | 可讀性高，比較好觀察、修改    | 1. 減小體積，使傳輸變快 2. 可以使JS防止被偷窺、竊取|
 |缺點   | 體積較大，傳輸較慢   |可讀性差|
-:::
+{% endnote %}
 
 # 執行
 

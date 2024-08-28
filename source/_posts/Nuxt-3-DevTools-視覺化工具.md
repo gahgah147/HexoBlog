@@ -208,9 +208,9 @@ Nuxt DevTools 整合了 VS Code Server，讓完整的 VS Code 編輯器可以整
 
 ![image](https://hackmd.io/_uploads/S10KcLf_6.png)
 
-:::info
+{% note info simple %}
 這邊要指定 code server port 3080
-:::
+{% endnote %}
 
 ```
 code-server --port 3080

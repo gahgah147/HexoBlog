@@ -60,9 +60,9 @@ GitHub 於 2019 年推出了 GitHub Actions，此工具可以協助我們進行 
 點選 "Commit new file" 選項
 ![](https://hackmd.io/_uploads/HycBcXYep.png)
 
-:::info
+{% note info simple %}
 測試若有設定過會出錯，需要新建立一個repository才會成功
-:::
+{% endnote %}
 
 頁面會自動跳轉回專案首頁，請點選回 "Actions"，就可以看到 github 按照剛剛建立的檔案建立了一個 CI 任務
 
@@ -208,9 +208,9 @@ jobs:
 
 在 GitLab 運行 CI/CD 時，同樣需要一個 runner 在背後執行，只是在 GitHub 的時候，他們幫我們做好了，因此我們不需要去碰到這塊，下面的方法為建立 runner 並和 GitLab 上的專案綁定的方法
 
-:::info
+{% note info simple %}
 接下來的步驟請先在要建立 runner 的電腦上安裝 docker
-:::
+{% endnote %}
 
 前往 GitLab 專案的 Setting 裡面的 CI/CD 頁面
 
@@ -399,7 +399,7 @@ execute-test:
     - nickchen1998_ithelp_2022_marathon
 ```
 
-:::info
+{% note info simple %}
 script 方面我有實際測試，
 pip3 install -r ./requirements.txt  
 這行實際運行會出錯，我後來調整成這樣可以運行成功
@@ -409,7 +409,7 @@ script:
     - pip3 install selenium
     - pip3 install webdriver_manager
     - pytest -s -v ./day_26/test_demo.py
-:::
+{% endnote %}
 
 ### 建立 fixture
 

@@ -37,13 +37,13 @@ categories:
 ![](https://hackmd.io/_uploads/Hygizoop62.png)
 >https://nodejs.org/en
 
-:::info
+{% note info simple %}
 有用Node js 推薦也一起使用 nvm，因為有時候常常會遇到版本問題
 ![](https://hackmd.io/_uploads/ryAznjaT3.png)
 >https://github.com/coreybutler/nvm-windows/releases
 
 選擇 nvm-setup 開始下載
-:::
+{% endnote %}
 
 ### Git
 ![](https://hackmd.io/_uploads/H1vIss66n.png)

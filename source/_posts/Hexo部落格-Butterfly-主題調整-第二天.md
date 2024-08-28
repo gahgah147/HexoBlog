@@ -238,9 +238,9 @@ chat_btn: true
 chat_hide_show: true
 ```
 
-:::info
+{% note info simple %}
 如果使用工具自帶的聊天按鈕，按鈕位置可能會遮擋右下角圖標，請配置`rightside_bottom`調正右下角圖標位置
-:::
+{% endnote %}
 
 設定之後在這邊會顯示有聊天功能
 ![image](https://hackmd.io/_uploads/r1zpTnOKC.png)

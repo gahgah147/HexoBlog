@@ -132,11 +132,12 @@ def test_crawler():
         assert data.get("latest_paragraph")
 ```
 
-:::info
+{% note info simple %}
 需要安裝套件
 pip install beautifulsoup4
 pip install lxml
-:::
+{% endnote %}
+
 #### 執行測試 (亮紅燈)
 接著我們要執行測試，此步驟需要確認錯誤的位置必須在 get_data() 的部分，因為我們還沒有實際撰寫此 function
 

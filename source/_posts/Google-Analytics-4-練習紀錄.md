@@ -52,9 +52,9 @@ GA4 以「事件 Events」為資料收集的基礎，除了幾個基本事件，
 ![](https://hackmd.io/_uploads/BJzAdSAM6.png)
 >https://analytics.google.com/analytics/web/provision/#/provision
 
-:::info
+{% note info simple %}
 點擊開始評估就能啟用 Google Analytics 的帳戶
-:::
+{% endnote %}
 
 ![](https://hackmd.io/_uploads/S1DuKrRMT.png)
 >在帳戶設定步驟，將「帳戶共用設定」的共用方式全部勾選 ( 或是使用預設值也可以 )。

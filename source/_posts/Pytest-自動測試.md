@@ -163,9 +163,10 @@ allure serve <allure 暫存檔存放位置>
 :::
 
 ### 使用docker-compose在docker容器中運行pytest
-:::info
+
+{% note info simple %}
 參考文章: https://geek-docs.com/pytest/pytest-questions/9_pytest_how_to_run_pytest_from_a_docker_container_within_dockercompose.html
-:::
+{% endnote %}
 
 安裝套件
 ```
@@ -181,9 +182,9 @@ allure serve <allure 暫存檔存放位置>
 ### 建立 .env 檔案
 env 檔案當中時常會保留我們不想要進入版本控制的重要資訊
 
-:::info
+{% note info simple %}
 注意： github 上的專案並沒有把 .env 推上去，若想使用請自行建立
-:::
+{% endnote %}
 
 
 ```

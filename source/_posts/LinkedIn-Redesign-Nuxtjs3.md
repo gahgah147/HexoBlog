@@ -36,10 +36,10 @@ npx nuxi add page profile
   </div>
 </template>
 ```
-:::info
+{% note info simple %}
 
 另外需要安裝 tailwindcss
-:::
+{% endnote %}
 ![image](https://hackmd.io/_uploads/B1jHtt5da.png)
 
 成果:
