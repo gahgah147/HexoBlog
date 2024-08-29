@@ -19,9 +19,6 @@ katex:
 hide:
 ---
 
-![image](https://hackmd.io/_uploads/rkXFZ2Ts0.png)
->https://cloud.google.com/anthos/?hl=zh_tw
-
 # 什麼是 Google Cloud Anthos？
 
 ![image](https://hackmd.io/_uploads/BkbFQ3pj0.png)
@@ -31,6 +28,11 @@ Google Cloud Anthos 是 Google 雲端平台（GCP）推出的現代化應用程�
 
 以下是官方說明影片
 https://youtu.be/1t6rHa2icqM
+
+
+這邊是官方的說明文件
+![image](https://hackmd.io/_uploads/rkXFZ2Ts0.png)
+>https://cloud.google.com/anthos/?hl=zh_tw
 
 ---
 
