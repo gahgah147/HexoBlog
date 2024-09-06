@@ -333,9 +333,9 @@ execute-test:
 可以看到下圖中 GitLab 順利為我們生成一條 CI pipline
 ![](https://hackmd.io/_uploads/ryHR33Vfa.png)
 
-:::warning
+{% note warning simple %}
 這邊要注意 runner 要指定對並且是執行中才會成功，不然會 Pending
-:::
+{% endnote %}
 
 ![](https://hackmd.io/_uploads/B1IbpnEMT.png)
 

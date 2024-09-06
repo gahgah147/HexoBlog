@@ -132,7 +132,7 @@ flutter doctor
 
 ![image](https://hackmd.io/_uploads/rkY1Q1WK0.png)
 
-:::warning
+{% note warning simple %}
 最後會產生一個簡易的報表，這時會看到一些錯誤或警告。
 別緊張，後面的步驟會一步一步處理它們。
 
@@ -145,7 +145,7 @@ flutter doctor
     X Visual Studio not installed; this is necessary to develop Windows apps.
     
 [!] Android Studio (not installed) 
-:::
+{% endnote %}
 
 ## 設定安裝 
 ```

@@ -41,8 +41,8 @@ def test_case_3():
 使用 pytest -n auto 表示要使用併發模式進行測試，可以看到測試時間只花了六秒鐘左右
 ![](https://hackmd.io/_uploads/B1iHYj_zT.png)
 
-:::warning
+{% note warning simple %}
 併發數量若使用 auto 會自動抓取電腦 CPU 核心數，來建立併發數量，一般建議使用 CPU 核心數 / 2 的併發數量來進行測試
 可以透過 pytest -n <concurrency_amount> 來進行併發數量的設定，
 例如：pytest -n 3 ./day_29/test_demo.py
-:::
+{% endnote %}

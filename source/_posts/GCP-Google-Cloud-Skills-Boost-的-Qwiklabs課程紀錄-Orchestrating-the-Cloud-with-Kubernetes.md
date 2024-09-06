@@ -36,13 +36,13 @@ Kubernetes 是開放原始碼專案 (可透過 kubernetes.io 存取)，能夠在
 在本研究室中，使用 Kubernetes Engine 等代管環境可讓您專心體驗 Kubernetes，不必費心設定基礎架構。Kubernetes Engine 是專用於部署容器化應用程式的代管環境。這項服務匯集了開發人員效率提升、資源效率、自動化作業和開放原始碼靈活性等方面的最新技術，有助於縮短上市時間。
 
 
-:::info
+{% note info simple %}
 應用程式託管於 GitHub，並提供 12 因子應用程式範例。在本研究室中，將使用以下 Docker 映像檔：
 * kelseyhightower/monolith：包含 Auth 和 Hello 服務的單體。
 * kelseyhightower/auth：Auth 微服務，可為通過驗證的使用者產生 JWT 權杖。
 * kelseyhightower/hello：Hello 微服務，會向通過驗證的使用者打招呼。
 * nginx：Auth 和 Hello 服務的前端。
-:::
+{% endnote %}
 
 # 目標
 
@@ -108,9 +108,9 @@ kubectl expose deployment nginx --port 80 --type LoadBalancer
 ```
 kubectl get services
 ```
-:::info
+{% note info simple %}
 「ExternalIP」欄位可能需要幾秒鐘才會填入服務的外部 IP 位址。這是正常現象，只要每隔幾秒重新執行 kubectl get services 指令，直到該欄位填入位址即可。
-:::
+{% endnote %}
 
 5. 在這項指令中加入外部 IP，從遠端連至該 Nginx 容器：
 
@@ -200,9 +200,9 @@ kubectl get pods
 
 ![image](https://hackmd.io/_uploads/rJ-IMC83R.png)
 
-:::info
+{% note info simple %}
 單體 Pod 可能需要幾秒鐘才會開始運作。單體容器映像檔必須先從 Docker Hub 提取出來才能執行。
-:::
+{% endnote %}
 
 5. Pod 開始運作後，請使用 `kubectl describe` 指令取得更多有關該單體 Pod 的資訊：
 
@@ -221,9 +221,9 @@ Kubernetes 可根據設定檔中的描述建立 Pod，並讓您在 Pod 運作時
 
 根據預設，Pod 會獲分配私人 IP 位址，且無法從叢集外部連線。請使用 `kubectl port-forward` 指令將本機通訊埠對應至單體 Pod 內部的通訊埠。
 
-:::info
+{% note info simple %}
 在本研究室的後續部分中，您必須透過多個 Cloud Shell 分頁設定 Pod 之間的通訊。如果指令是透過第二或第三個指令殼層執行，則會在指令的操作說明中標示。
-:::
+{% endnote %}
 
 1. 開啟第二個 Cloud Shell 終端機。您現在有兩個終端機，分別用於執行 `kubectl port-forward` 指令及下達 `curl` 指令。
 
@@ -408,12 +408,12 @@ spec:
 
 ![image](https://hackmd.io/_uploads/BJbQtCIhC.png)
 
-:::info
+{% note info simple %}
 注意事項：
 * 輸出內容包含選取器，用來自動尋找及公開含有「app: monolith」和「secure: enabled」標籤的 Pod。
 
 * 現在您必須公開節點通訊埠，這樣才能將外部流量從通訊埠 31000 轉送至位於通訊埠 443 的 nginx。
-:::
+{% endnote %}
 
 5. 使用 `kubectl create` 指令，透過單體 Service 設定檔建立單體 Service：
 
@@ -471,7 +471,7 @@ curl -k https://<EXTERNAL_IP>:31000
 
 糟糕！作業逾時。發生了什麼事？
 
-:::info
+{% note info simple %}
 附註：來驗收一下您的學習成果吧。
 
 請使用以下指令回答下方問題：
@@ -484,7 +484,7 @@ kubectl describe services monolith
 為何單體 Service 無法傳回回應？
 單體 Service 有幾個端點？
 Pod 必須有哪些標籤，單體 Service 才能辨識？
-:::
+{% endnote %}
 
 提示：關鍵在於標籤。您將在下一節修正錯誤。
 
@@ -630,9 +630,9 @@ kubectl create -f deployments/frontend.yaml
 kubectl create -f services/frontend.yaml
 ```
 
-:::info
+{% note info simple %}
 您必須透過容器儲存設定資料，因此要另外建立 Frontend。
-:::
+{% endnote %}
 
 6. 與 Frontend 互動，擷取其外部 IP 並執行 curl 指令：
 
@@ -642,9 +642,9 @@ kubectl get services frontend
 
 ![image](https://hackmd.io/_uploads/rkX52RL2R.png)
 
-:::info
+{% note info simple %}
 外部 IP 位址可能需要一分鐘才能產生。如果 EXTERNAL-IP 欄狀態為「待處理」，請再次執行上方指令。
-:::
+{% endnote %}
 
 ```
 curl -k https://<EXTERNAL-IP>

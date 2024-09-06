@@ -86,9 +86,9 @@ fork 練習 專案 https://github.com/nalson0219/movies
 ![image](https://hackmd.io/_uploads/B1Drz9KUa.png)
 >點擊檢查器後，當滑鼠滑入畫面的元素便會提示元件檔案位置與行數，點擊後能前往該檔案。
 
-:::warning
+{% note warning simple %}
 這功能我目前測試有問題，點開是不會跳到那邊
-:::
+{% endnote %}
 
 # Nuxt DevTools 工具面板介面功能
 ![image](https://hackmd.io/_uploads/SJp9QcYI6.png)

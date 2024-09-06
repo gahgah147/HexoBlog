@@ -66,7 +66,7 @@ export ipfs_data=/absolute/path/to/<data的資料夾>/
 docker run -d --name ipfs_host -v $ipfs_staging:/export -v $ipfs_data:/data/ipfs -p 4001:4001 -p 4001:4001/udp -p 127.0.0.1:8080:8080 -p 127.0.0.1:5001:5001 ipfs/go-ipfs:latest
 ```
 
-:::warning
+{% note warning simple %}
 
 這邊我有遇到錯誤訊息
 ![image](https://hackmd.io/_uploads/SJLDPXQ7A.png)
@@ -87,7 +87,7 @@ docker run -d --name ipfs_host -v $ipfs_staging:/export -v $ipfs_data:/data/ipfs
 4.點擊"Apply & Restart"來應用更改。
 完成這些步驟後，Docker Desktop將啟用WSL 2整合並重啟。然後，你應該能夠在WSL 2中使用docker命令來運行容器。
 
-:::
+{% endnote %}
 
 如果要監看 logs，可以下：
 

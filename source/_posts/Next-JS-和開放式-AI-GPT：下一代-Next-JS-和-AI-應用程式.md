@@ -233,9 +233,9 @@ MONGODB_URI=mongodb+srv://user:<password>@cluster0.biiwahu.mongodb.net/?retryWri
 
 # 設定 Stripe 收費功能
 
-:::warning
+{% note warning simple %}
 這邊我發現一個問題 Stripe並不支援在台灣開立商戶帳戶 
-:::
+{% endnote %}
 
 ![image](https://hackmd.io/_uploads/ryq1DtV26.png)
 >https://stripe.com/

@@ -158,9 +158,9 @@ py.test --alluredir=<allure 暫存檔存放位置> <測試檔案 or 目錄>
 allure serve <allure 暫存檔存放位置>
 ```
 
-:::warning
+{% note warning simple %}
 目前測試產生的
-:::
+{% endnote %}
 
 ### 使用docker-compose在docker容器中運行pytest
 
@@ -447,10 +447,10 @@ def test_create_user_in_sqlite(sqlite_session: Session):
     assert result.username == data.username
 ```
 
-::: info
+{% note info simple %}
 測試需要安裝套件
 pip install sqlalchemy
-:::
+{% endnote %}
 
 ### 成果展示
 接著我們就可以利用 pytest 對 test_demo.py 進行測試了，下方為測試結果截圖
@@ -474,9 +474,9 @@ pip install mongomock
 ### 建立 crud
 這邊會在 crud.py 檔案內建立一個寫入資料的方式，直接附上範例並進行解說
 
-:::warning
+{% note warning simple %}
 注意：在正式的專案檔案中 (即非測試程式) 需要使用 pymongo 所提供的 MongoClient，才不會造成不可避免的錯誤
-:::
+{% endnote %}
 
 程式解析：
 

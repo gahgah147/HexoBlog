@@ -47,7 +47,7 @@ go get -u github.com/swaggo/files
 swag init
 ```
 
-:::warning
+{% note warning simple %}
 ![image](https://hackmd.io/_uploads/S1QZb_O5T.png)
 這邊實作遇到這個問題，後來看這篇文章
 [[Golang] “swag: command not found”error handling](https://peggy-tsai.medium.com/golang-swag-command-not-found-error-handling-52e2cbc5240e)
@@ -66,7 +66,7 @@ PATH=$(go env GOPATH)/bin:$PATH
 回到專案資料夾，即可正常使用
 ![image](https://hackmd.io/_uploads/BJ7PNdd5T.png)
 
-:::
+{% endnote %}
 
 這將生成docs目錄，其中包含Swagger的文檔資料。
 
