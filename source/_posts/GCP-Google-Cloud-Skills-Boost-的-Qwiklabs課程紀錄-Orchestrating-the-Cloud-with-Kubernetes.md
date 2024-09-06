@@ -1,7 +1,5 @@
 ---
-title: >-
-  GCP - Google Cloud Skills Boost 的 Qwiklabs課程紀錄 : Orchestrating the Cloud with
-  Kubernetes
+title: GCP - Qwiklabs課程紀錄 Orchestrating the Cloud with Kubernetes
 date: 2024-09-05 17:13:25
 tags:
   - GCP
