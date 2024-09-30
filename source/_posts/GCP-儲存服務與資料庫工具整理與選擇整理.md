@@ -21,6 +21,7 @@ hide:
 
 ![image](https://hackmd.io/_uploads/B1XjX8cpC.png)
 > GCP的儲存服務與
+
 ![image](https://hackmd.io/_uploads/HJOPXL9pC.png)
 > GCP的資料庫
 
