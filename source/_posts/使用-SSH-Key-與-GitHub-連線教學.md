@@ -30,7 +30,7 @@ hide:
 
 除此之外，當我們在團隊合作中，需要快速抓取程式碼進行開發時，使用 SSH Key 更是非常實用且推薦的做法！  
 如下圖所示，設定好 SSH 後，團隊開發的效率將更進一步：  
-![團隊合作使用 SSH key](https://hackmd.io/_uploads/rkgu2dNzJx.png)
+![團隊合作使用 SSH key](https://hackmd.io/_uploads/r124dtVf1x.png)
 
 接下來，就讓我們一起學習如何設定 SSH Key 並與 **GitHub** 建立安全連線吧！
 
