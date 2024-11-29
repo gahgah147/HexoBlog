@@ -17,6 +17,7 @@ katex:
 hide:
 ---
 
+![PM2：提升 Node.js 應用程式管理與性能的利器](https://hackmd.io/_uploads/HJH6Jzwmke.png)
 
 在開發和部署 Node.js 應用程式時，如何高效地管理應用程式的啟動、監控、記錄以及處理高可用性等問題，一直是開發者面對的重要挑戰。
 
