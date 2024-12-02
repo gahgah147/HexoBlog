@@ -17,6 +17,7 @@ katex:
 hide:
 ---
 
+
 ![PM2：提升 Node.js 應用程式管理與性能的利器](https://hackmd.io/_uploads/HJH6Jzwmke.png)
 
 在開發和部署 Node.js 應用程式時，如何高效地管理應用程式的啟動、監控、記錄以及處理高可用性等問題，一直是開發者面對的重要挑戰。
@@ -140,10 +141,16 @@ pm2 start app.js -i max
 
 在生產環境中，我們通常希望應用程式在系統重啟後仍然能自動啟動。PM2 提供了自動啟動功能，可以讓我們在系統重啟後重新啟動應用程式。
 
-首先，使用以下命令生成自啟動腳本：
+首先，執行以下指令以生成啟動腳本：
 
 ```bash
 pm2 startup
+```
+
+根據輸出的提示執行額外的設定指令，例如：
+
+```bash
+sudo env PATH=$PATH:/usr/bin pm2 startup systemd -u <username> --hp /home/<username>
 ```
 
 接著，保存當前的應用程式配置：
