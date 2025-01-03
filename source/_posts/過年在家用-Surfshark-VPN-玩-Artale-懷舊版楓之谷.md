@@ -17,7 +17,7 @@ katex:
 hide:
 ---
 
-過年在家用 Surfshark VPN 玩 Artale 懷舊版楓之谷
+# 過年在家用 Surfshark VPN 玩 Artale 懷舊版楓之谷
 
 ---
 
@@ -44,7 +44,7 @@ hide:
 
 ### **如何開始使用？**
 
-**步驟 1**: [點擊這裡](https://www.surfshark.com/?ref=36065) 訂閱 Surfshark VPN，享受新年超值優惠！  
+**步驟 1**: [點擊這裡](https://get.surfshark.net/aff_c?offer_id=926&aff_id=36065) 訂閱 Surfshark VPN，享受新年超值優惠！  
 **步驟 2**: 安裝 Surfshark VPN，選擇您要連線的國家伺服器。  
 **步驟 3**: 登入《Artale 懷舊版楓之谷》官網，下載遊戲並開始您的冒險！  
 
@@ -55,7 +55,7 @@ https://maplestoryworlds.nexon.com/en/play/79ff3d4d4aba4796baa484e411754533/
 ---
 
 ### **Surfshark 新年特惠等您來拿！**  
-透過 **[我的專屬連結](https://www.surfshark.com/?ref=36065)** 訂閱 Surfshark，不僅可以享受 VPN 的全方位功能，還能獲得專屬折扣，讓您的新年假期更有趣！
+透過 **[我的專屬連結](https://get.surfshark.net/aff_c?offer_id=926&aff_id=36065)** 訂閱 Surfshark，不僅可以享受 VPN 的全方位功能，還能獲得專屬折扣，讓您的新年假期更有趣！
 
 ---
 
