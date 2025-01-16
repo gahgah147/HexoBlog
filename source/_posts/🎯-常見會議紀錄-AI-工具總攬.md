@@ -2,6 +2,16 @@
 title: 🎯 常見會議紀錄 AI 工具總攬
 date: 2025-01-16 09:50:55
 tags:
+    - 會議紀錄 AI
+    - Otter.ai
+    - Fireflies.ai
+    - Notion AI
+    - Zoom IQ
+    - Microsoft Teams Copilot
+    - Fathom
+    - Gong.io
+    - Krisp AI
+    - Sembly AI
 categories:
 keywords:
 description:
