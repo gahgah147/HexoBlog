@@ -9,7 +9,7 @@ keywords:
 description:
 top_img:
 comments:
-cover:
+cover: https://hackmd.io/_uploads/r1yEn-Vq1g.png
 toc:
 toc_number:
 copyright:
