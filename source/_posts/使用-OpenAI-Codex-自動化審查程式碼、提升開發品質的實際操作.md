@@ -6,6 +6,8 @@ tags:
     - AI Code review
 categories:
 keywords:
+    - Codex
+    - AI Code review
 description:
 top_img:
 comments:
